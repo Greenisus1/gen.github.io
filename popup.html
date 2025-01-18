@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		.holds-the-iframe {
+			background: url("./images/loading.gif") center center no-repeat;
+
+			left: 0;
+			position: absolute;
+			top: 0;
+
+
+			height: 100%;
+			width: 100%;
+
+
+			align-items: center;
+			display: flex;
+			justify-content: center;
+		}
+
+		.container {
+
+			position: relative;
+		}
+
+
+	</style>
+
+	<meta charset="UTF-8">
+	<script src="js/popup.js"></script>
+	<title></title>
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="holds-the-iframe" id="loadingS"> </div>
+
+		<iframe src="https://inventabot.com/chrome" style="border:0px #ffffff none;" name="Chrome" id="myIframe" scrolling="yes"
+			frameborder="1" marginheight="0px" marginwidth="0px" height="500px" width="400px" allowfullscreen></iframe>
+	</div>
+
+</body>
+
+</html>
